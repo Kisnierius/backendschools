@@ -1,0 +1,220 @@
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback
+$ pwd
+/c/Users/jonas.kisnierius/Desktop/VIGI2frontback
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback
+$ cd backendpratimas
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas
+$ cd backend
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (backend) 
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\jonas.kisnierius\Desktop\VIGI2frontback\backendpratimas\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm install express cors mongodb dotenv
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+
++ mongodb@4.1.0
++ cors@2.8.5
++ express@4.17.1
++ dotenv@10.0.0
+added 71 packages from 98 contributors and audited 71 packages in 11.889s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm install eslint nodemon --save-dev
+
+> nodemon@2.0.12 postinstall C:\Users\jonas.kisnierius\Desktop\VIGI2frontback\backendpratimas\backend\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+
++ eslint@7.32.0
++ nodemon@2.0.12
+added 226 packages from 102 contributors and audited 298 packages in 35.702s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$
+
+
+
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback
+$ pwd
+/c/Users/jonas.kisnierius/Desktop/VIGI2frontback
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback
+$ cd backendpratimas
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas
+$ cd backend
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (backend) 
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\jonas.kisnierius\Desktop\VIGI2frontback\backendpratimas\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm install express cors mongodb dotenv
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+
++ mongodb@4.1.0
++ cors@2.8.5
++ express@4.17.1
++ dotenv@10.0.0
+added 71 packages from 98 contributors and audited 71 packages in 11.889s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npm install eslint nodemon --save-dev
+
+> nodemon@2.0.12 postinstall C:\Users\jonas.kisnierius\Desktop\VIGI2frontback\backendpratimas\backend\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+
++ eslint@7.32.0
++ nodemon@2.0.12
+added 226 packages from 102 contributors and audited 298 packages in 35.702s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ eslint --init
+bash: eslint: command not found
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$ npx eslint --init
+√ How would you like to use ESLint? · style       
+√ What type of modules does your project use? · commonjs
+√ Which framework does your project use? · none
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · browser
+√ How would you like to define a style for your project? · guide
+√ Which style guide do you want to follow? · airbnb
+√ What format do you want your config file to be in? · JSON
+Checking peerDependencies of eslint-config-airbnb-base@latest
+The config that you've selected requires the following dependencies:
+
+eslint-config-airbnb-base@latest eslint@^5.16.0 || ^6.8.0 || ^7.2.0 eslint-plugin-import@^2.22.1
+√ Would you like to install them now with npm? · No / Yes
+Installing eslint-config-airbnb-base@latest, eslint@^5.16.0 || ^6.8.0 || ^7.2.0, eslint-plugin-import@^2.22.1
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ eslint@7.32.0
++ eslint-config-airbnb-base@14.2.1
++ eslint-plugin-import@2.24.1
+added 73 packages from 42 contributors, updated 1 package and audited 371 packages in 16.221s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Successfully created .eslintrc.json file in C:\Users\jonas.kisnierius\Desktop\VIGI2frontback\backendpratimas\backend
+
+jonas.kisnierius@NB014237 MINGW64 ~/Desktop/VIGI2frontback/backendpratimas/backend
+$
