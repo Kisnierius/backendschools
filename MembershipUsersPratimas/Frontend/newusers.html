@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="Style.css">
+    <script src="./scriptaddusers.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="index.html">Memberships</a>
+            <a href="users.html">Users</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+    <div class="contentHead">
+        <div class="contentHeadtext">
+            <h1>Create User</h1>
+        </div>
+    </div>
+    
+    <form class="creator">
+        <div>
+        <label for="Firstname">First Name:</label>
+        <input type="text" name="Firstname" placeholder="First Name">
+    </div>
+
+    <div>
+        <label for="Lastname">Last Name:</label>
+        <input type="text" name="Lastname" placeholder="Last Name">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder= "Email address" min='1' max="999">
+        </div>
+
+        <label for="selectmem">Select membership:</label>
+        <select id="selectmem" name="selectmem">
+          <option value="???">????</option>
+          <option value="???">???</option>
+          <option value="???">???</option>
+        </select>
+
+        
+        <button type="submit">New User</button>
+      </form>
+    
+      <p id="message">
+              
+    </p>
+
+    </div>
+   
+
+</body>
+</html>

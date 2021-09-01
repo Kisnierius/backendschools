@@ -1,0 +1,111 @@
+header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav a {
+        padding: 0 30px;
+    }
+    body {
+        background-color: rgb(221, 231, 231);
+    }
+
+    header {
+        background-color: rgb(250, 255, 255);
+        padding: 20px;
+    }
+
+    .content {
+        padding: 10px 60px;
+    }
+
+    .contentHead {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    form.creator{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        flex-wrap: wrap;
+    padding: 0;
+     }
+    
+     #box > div {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 30%;
+         border: black 1px solid;
+         margin-bottom: 10px;
+         box-shadow: 0 1px 5px rgb(65, 64, 64);
+         background-color: white;
+        
+         padding: 20px 0 10px 0;
+     }
+        
+     #box > div > div{
+         padding: 5px 10px;
+        
+     }
+    
+    
+    
+     #box > div > :nth-child(1) > span {
+        padding: 0 5px;
+        font-weight: bold;
+        font-size: 1.5rem;
+     }
+
+     #box > div > :nth-child(1) > :nth-child(1)::before{
+     content: '€ ';}
+    
+     #box > div > :nth-child(2) {
+     border-bottom: 1px solid grey;
+    padding-right: 0;
+    text-align: center;
+align-self: stretch;}
+    
+
+    #box > div > :nth-child(3) {
+        align-self: flex-end;
+    
+        background-color: hotpink;
+        margin: 10px;
+    }
+
+    .contentheadbuttons > button {
+    
+        background-color: rgb(87, 157, 236);
+        border-radius: 5px;
+        border: none;
+        padding: 5px 10px;
+    }
+
+    .contentheadbuttons > button > a {
+        text-decoration: none;
+    color: white;
+    padding: 10px 5px 10px 15px;
+    }
+
+    .contentheadbuttons > button > a::before {
+        content: '+ ';
+        padding-right: 10px;
+    }
+
+    #sort {
+        font-weight: bold;
+        text-align: center;
+    }
