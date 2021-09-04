@@ -33,8 +33,6 @@ function createMembershipFETCH(event) {
       .catch(error => document.getElementById('message').textContent = error.message);
   }
 
- 
-
 // *** Events ***
 
 formCreateMembership.addEventListener('submit', createMembershipFETCH);

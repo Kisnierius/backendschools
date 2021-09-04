@@ -35,12 +35,9 @@ function createUserFETCH(event) {
       .catch(error => document.getElementById('message').textContent = error.message);
   }
 
-
   formCreateusers.addEventListener('submit', createUserFETCH);
 
   //////////////////////// Get Membership ID:
-
-
 
 const handleResponseJSON = response => {
   if (response.ok) {
@@ -49,7 +46,7 @@ const handleResponseJSON = response => {
   throw new Error('Something went wrong');
 };
 
-
+// paimam membership name pagal id is memberships kolekcijos
 async function Memberships() {
  const JSONPLACEHOLDER_URI = 'http://127.0.0.1:3000';
   const response = await fetch(JSONPLACEHOLDER_URI);
@@ -60,24 +57,16 @@ async function Memberships() {
   displayMemberships(memberships);
 }
 
-
-
-
+// ikeliam paimto membership name i select boxa
 function displayMemberships(memberships) {
 
   const body = document.querySelector("select#selectmem");
   body.innerHTML = "";
-
-
-
   memberships.forEach(membership => {
 
-    //<option value="???">????</option>
     const memBox = document.createElement("option");
     memBox.value = membership._id;
     memBox.innerText = membership.name
-
-
       body.append(memBox);
   })
 }
